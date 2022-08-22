@@ -19,8 +19,6 @@ function reload() {
 
 btn.addEventListener('click', () => {
   setTimeout(() => {
-    text.textContent = 'Hello World';
-
     if (window.navigator.onLine) {
       setOnline();
     } else {
@@ -34,6 +32,5 @@ btn.addEventListener('click', () => {
     window.addEventListener('online', () => {
       setOnline();
     });
-
   }, 1000);
 });
