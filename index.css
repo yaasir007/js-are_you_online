@@ -12,3 +12,9 @@ body {
   font-weight: 600;
   font-style: italic;
 }
+
+#text li {
+	font-size:3rem
+;
+
+} 
